@@ -1,0 +1,43 @@
+.mi {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.125em;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+}
+
+html {
+	font-size: 16px;
+	line-height: 1.125;
+	--sidebar-width: 300px;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	line-height: 1.66;
+	background: #f2f4f6;
+}
+
+.sidebar {
+	width: var(--sidebar-width);
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.main-content {
+	padding-left: var(--sidebar-width);
+}

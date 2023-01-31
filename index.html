@@ -6,6 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>vanilla-bs</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/custom.css">
 </head>
@@ -13,7 +16,61 @@
 <body>
 
 	<div id="root">
-		<p>vanilla-bs</p>
+
+		<nav class="sidebar bg-white position-fixed border-end shadow-sm">
+			<a href="/" class="d-flex align-items-center p-3 mb-3 link-dark text-decoration-none border-bottom fs-5">
+				<span class="mi me-2">grid_view</span> Vanilla BS
+			</a>
+			<div class="list-group list-group-flush">
+				<a href="#" class="list-group-item list-group-action">Dashboard</a>
+				<a href="#" class="list-group-item list-group-action">Form Elements</a>
+				<a href="#" class="list-group-item list-group-action">Tables</a>
+				<a href="#" class="list-group-item list-group-action">UI Elements</a>
+				<a href="#" class="list-group-item list-group-action">Profile</a>
+				<a href="#" class="list-group-item list-group-action">Tabs &amp; Modals</a>
+			</div>
+		</nav>
+		<!-- /.sidebar -->
+
+		<main class="main-content">
+
+			<div class="p-2">
+				<nav class="navbar">
+					<div class="container-fluid">
+						<div class="row align-items-center justify-content-between w-100">
+							<div class="col-auto">
+								<form class="d-flex" role="search">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search..."
+											aria-label="Username" aria-describedby="basic-addon1">
+										<span class="input-group-text bg-white" id="basic-addon1">
+											<span class="mi">search</span>
+										</span>
+									</div>
+								</form>
+							</div>
+							<div class="col-auto">
+								<div class="dropdown">
+									<a class="btn btn-secondary" href="#" role="button" data-bs-toggle="dropdown"
+										aria-expanded="false">K</a>
+									<ul class="dropdown-menu dropdown-menu-end">
+										<li><a class="dropdown-item" href="#">Action</a></li>
+										<li><a class="dropdown-item" href="#">Another action</a></li>
+										<li>
+											<hr class="dropdown-divider">
+										</li>
+										<li><a class="dropdown-item" href="#">Something else here</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+		</main>
+		<!-- /.main-content -->
+
 	</div>
 	<!-- /#root -->
 
