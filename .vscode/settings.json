@@ -1,0 +1,7 @@
+{
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+}
